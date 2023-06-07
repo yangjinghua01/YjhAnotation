@@ -1,0 +1,3 @@
+rootProject.name = "My Anotation"
+include ':app',':compiler'
+include ':compiler'
