@@ -6,10 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.yihantaiduo.myanotation.ui.CardStackView
-        android:id="@+id/card_stack_view"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>
